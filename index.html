@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website - > modern design</title>
+    <!-- font-awesome icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- aos cdn link for animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgb(0, 0, 0), rgb(14, 14, 14), rgba(33, 33, 33, 0.934));
+        }
+
+        #design {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(0, 0, 0, 0.599), rgb(14, 14, 14), rgba(33, 33, 33, 0.594)), url("assets/header.jpg");
+            z-index: -1;
+            clip-path: polygon(50% 0%, 72% 18%, 100% 11%, 100% 100%, 0 100%, 0 0, 9% 0);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background: rgb(0, 0, 0);">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="index.html"> <span style="color: #f87878;">Coder</span>Kaju💻</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link fs-5 " style="color:#735AE5 ;" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link fs-5 text-white" href="#about">About</a>
+                    <a class="nav-link fs-5 text-white" href="#skills">Skills</a>
+                    <a class="nav-link fs-5 text-white" href="#project">Projects</a>
+                    <a class="nav-link fs-5 text-white" href="#footer">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="px-4 text-center">
+            <h1 class="display-5 fw-bold">Raunak Rajput</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Raunak Rajput is a frontend developer specializing in creating responsive,
+                    user-friendly websites. Proficient in HTML, CSS, JavaScript, and modern frameworks, he focuses on
+                    delivering engaging, high-quality web experiences.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a href="#about" type="button" class="btn btn-lg px-4 gap-3 headerbtn">About
+                        me</a>
+                    <a href="#" type="button" class="btn btn-outline-secondary btn-lg px-4 hcolor">Projects</a>
+                </div>
+            </div>
+        </div>
+        <div class="arrowbox">
+            <a href="#about"> <i class="fa-solid fa-arrow-down fa-fade"></i></a>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-sm-6 col-md-8 col-lg-8 px-3 pb-5" data-aos-delay="150" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" data-aos="flip-left">
+                    <h3 class="title myborder"><span>A</span>bout</h3>
+                    <p class="dis">Raunak Rajput is a talented frontend developer with a strong focus on
+                        building responsive and visually engaging websites. Skilled in HTML, CSS, JavaScript, and
+                        popular frameworks like React and Vue.js, he creates seamless user experiences. Raunak is
+                        committed to delivering high-quality solutions that prioritize both functionality and design.
+                        With a keen eye for detail and a passion for staying up-to-date with the latest industry trends,
+                        he consistently delivers projects that exceed client expectations and engage users effectively.
+                    </p>
+                    <div class="aboutbtnsec">
+                        <a href="about.html" class="mybtn">Read more <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 px-5" data-aos-delay="150" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" data-aos="flip-right">
+                    <img src="https://cdn.pixabay.com/photo/2023/04/28/23/30/ai-generated-7957452_1280.png" alt=""
+                        width="100%" height="330px" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container py-5">
+            <h3 class="title text-center">Mastering <span style="text-decoration: line-through; color: #c2b6fb;">
+                    Skills</span> for Personal Growth</h3>
+            <p class="dis text-center">Mastering skills helps build confidence, improves performance, and opens new
+                opportunities, <br> leading to personal growth and a successful future.</p>
+            <div class="row py-3" data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-in-out"
+                data-aos="flip-up">
+                <div class="col-sm-3 col-md-3 col-lg-2 skills-col">
+                    <div><img src="./assets/html.png" alt="skills images">
+                        <p>Html</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-2 skills-col">
+                    <div><img src="./assets/css.png" alt="skills images">
+                        <p>Css</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-2 skills-col">
+                    <div><img src="./assets/js.png" alt="skills images">
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-2 skills-col">
+                    <div><img src="./assets/jq.png" alt="skills images">
+                        <p>Jquery</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-2 skills-col">
+                    <div><img src="./assets/github.png" alt="skills images">
+                        <p>Github</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-2 skills-col">
+                    <div><img src="./assets/bootstrap.png" alt="skills images">
+                        <p>bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="project" class="project">
+        <div class="container">
+            <h3 class="title text-center">Creative <span style="text-decoration: line-through; color: #c2b6fb;">
+                    Projects </span> Making a Real Difference</h3>
+            <p class="dis text-center">Our creative projects aim to solve real-world problems, bringing positive change
+                and creating <br> meaningful impact in communities and industries.</p>
+            <div class="row py-3" data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-in-out"
+                data-aos="flip-down">
+                <div class="col-sm-6 col-md-4 col-lg-3 project-col">
+                    <div><a href="#"><img src="./assets/projectimage1.jpg" alt="skills images"></a></div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 project-col">
+                    <div><a href="#"><img src="./assets/projectimage2.jpg" alt="skills images"></a></div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 project-col">
+                    <div><a href="#"><img src="./assets/projectimage3.jpg" alt="skills images"></a></div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 project-col">
+                    <div><a href="#"><img src="./assets/projectimage4.jpg" alt="skills images"></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container py-5 footer-row">
+            <div class="text-center my-3">
+                <h3 class="title">- Contact -</h3>
+                <p>Get in Touch with me</p>
+                <div class="footer-icon">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div class="footer-btn">
+                    <a href="contact.html" class="mybtn">Request for call</a>
+                </div>
+            </div>
+        </div>
+        <div id="design"></div>
+    </footer>
+
+    <button class="topbtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+     <script>
+        ////////////////////////////////// top scroll ////////////////////////////////////////// 
+const button = document.querySelector('.topbtn');
+
+const displayButton = () => {
+ window.addEventListener('scroll', () => {
+   console.log(window.scrollY);
+ 
+   if (window.scrollY > 100) {
+     button.style.display = "block";
+   } else {
+     button.style.display = "none";
+   }
+ });
+};
+
+const scrollToTop = () => {
+ button.addEventListener("click", () => {
+   window.scroll({
+     top: 0,
+     left: 0,
+     behavior: 'smooth'
+   }); 
+   console.log(event);
+ });
+};
+
+displayButton();
+scrollToTop();
+
+
+   </script>
+</body>
+
+</html>
